@@ -1,0 +1,7 @@
+plugin EditorDeclarativePlugin ../plugin
+
+Button ./Button.qml
+FileMenu ./FileMenu.qml
+EditMenu ./EditMenu.qml
+TextArea ./TextArea.qml
+MenuBar ./MenuBar.qml
