@@ -5,6 +5,7 @@ Rectangle {
 
     property alias editArea: textEdit
     property alias fontColor: textEdit.color
+    property alias textContent: textEdit.text
 
     width :400; height:400
 
