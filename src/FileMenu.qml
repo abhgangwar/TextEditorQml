@@ -24,7 +24,6 @@ Rectangle {
 			normalColor: "lightgrey"
 			labelText: "Open"
 			onButtonClick: {
-				console.log( "Open Button has been pressed" );
                 fileActions.open();
                 textArea.textContent = fileActions.fileContent
 			}
@@ -37,7 +36,6 @@ Rectangle {
 			normalColor: "grey"
 			labelText: "Save"
 			onButtonClick: {
-				console.log( "Save Button has been pressed" );
                 fileActions.fileContent = textArea.textContent
                 fileActions.save()
 			}

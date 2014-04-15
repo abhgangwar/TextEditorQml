@@ -24,7 +24,7 @@ Rectangle {
         height: parent.height - drawer.height
         
         fontColor: "black"
-        editArea.font.pointSize: 14
+        editArea.font.pointSize: 12
         //anchors.bottom: mainEditor.bottom
     }
     

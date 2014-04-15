@@ -18,7 +18,6 @@ Rectangle {
 			normalColor: "lightgrey"
 			labelText: "Copy"
 			onButtonClick: {
-				console.log( "Copy Button has been pressed" );
                 textArea.editArea.copy()
 			}
 		}
@@ -30,7 +29,6 @@ Rectangle {
 			normalColor: "lightgrey"
 			labelText: "Cut"
 			onButtonClick: {
-				console.log( "Cut Button has been pressed" );
                 textArea.editArea.cut()
 			}
 		}
@@ -42,7 +40,6 @@ Rectangle {
 			normalColor: "grey"
 			labelText: "Paste"
 			onButtonClick: {
-				console.log( "Paste Button has been pressed" );
                 textArea.editArea.paste()
 			}
 		}
@@ -55,7 +52,6 @@ Rectangle {
 			labelText: "Select All"
 			onButtonClick: {
                 textArea.editArea.selectAll()
-				console.log( "Select All button has been pressed" );
 			}
 		}
 	}
